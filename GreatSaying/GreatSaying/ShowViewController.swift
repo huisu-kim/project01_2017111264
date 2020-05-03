@@ -42,7 +42,7 @@ class ShowViewController: UIViewController {
         var SayingList:[Saying] = [Saying01,Saying02,Saying03,Saying04,Saying05,Saying06,Saying07,Saying08,Saying09]
         
      
-        func please(a: Int, b: Int) {
+        func correct(a: Int, b: Int) {
             var count = 0
             if topic == a && from == b {
                     for (_ , topic, from,_) in SayingList {
@@ -60,7 +60,7 @@ class ShowViewController: UIViewController {
             sayingLabel.text = Info
         } else {
             
-            please(a: topic, b: from)
+            correct(a: topic, b: from)
             if ShowList.count == 0 {
                 sayingLabel.text = "simple is the best"
             } else {

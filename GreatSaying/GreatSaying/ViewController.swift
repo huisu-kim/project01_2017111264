@@ -17,7 +17,7 @@ class ViewController: UIViewController,UIPickerViewDelegate, UIPickerViewDataSou
     
 
     
-    let topicArray : Array<String> = ["도전","사랑","인생","열정"]
+    let topicArray : Array<String> = ["도전","시간","인생","관계"]
     let fromArray : Array<String> = ["책 명언", "영화 명언", "인물 명언" ,"내가 만든 명언"]
     
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
